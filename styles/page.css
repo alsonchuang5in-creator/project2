@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.light-mode {
+    background-color: azure;
+    color: black;
+}
+
+.center {
+    width: 940px;
+    padding: 20px;
+    border: 1px dotted white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poem {
+    text-align: left;
+}
+
+#calculator {
+    background-image: linear-gradient(to bottom, rgb(63, 63, 65), rgb(27, 27, 27));
+    border-width: 4px;
+    border-color: red;
+    border-style: solid;
+    
+    min-width: 100px;
+    max-width: 200px;
+}
+
+#counter {
+    background-image: linear-gradient(to bottom, rgb(63, 63, 65), rgb(27, 27, 27)); background-color: aqua;
+    border-width: 4px;
+    border-color: red;
+    border-style: solid;
+
+    min-width: 40px;
+    max-width: 140px;
+}
+
+button {
+    min-width: 35px;
+    max-width: 85px;
+}
+
+footer {
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, darkslateblue, darkslategrey);
+}
+
+.light-mode footer {
+    background-color: black;
+    color: aqua;
+}
+
+.font {
+    font-family: "Sekuya", system-ui;
+}
